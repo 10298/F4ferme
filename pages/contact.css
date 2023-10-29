@@ -1,0 +1,51 @@
+*{
+	scroll-behavior: smooth;
+}
+
+.c-1{
+	background: url("../images/pig1.jpg");
+}
+
+.form-container{
+	display: grid;
+	width: 50%;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 80%;
+	margin:auto;
+}
+
+@media (max-width:768px){
+	form{
+		width:100%;
+	}
+
+	.form-container{
+		width: 100%;
+	}
+}
+
+form input,textarea{
+	border: none;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 2px 2px 25px rgba(0, 0, 0,.1);
+}
+
+form button{
+	border: none;
+	padding: 10px;
+	background-color: #198754;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 500;
+}
+
+/*.success{
+	color: green;
+	background-color: #6ce3ab;
+}*/

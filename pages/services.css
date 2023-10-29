@@ -1,0 +1,77 @@
+*{
+	scroll-behavior: smooth;
+}
+
+.s-1{
+	background: url("../images/pig1.jpg");
+}
+
+.s-2 .d-flex{
+	background-color: #e35e4c;
+	border-radius: 15px;
+	align-items: center;
+}
+
+@media (max-width:768px){
+	.s-2 .d-flex{
+		display:flex;
+		flex-direction: column;
+		border-radius: 0px;
+	}
+}
+
+.s-2 .d-flex>div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.s-2 img{
+	background-color: #fff;
+	border-radius: 50%;
+	padding: 20px;
+}
+
+.s-2 .d-flex img{
+	height: 120px;
+}
+
+.s-3{
+	display: flex;
+	justify-content: space-around;
+}
+
+
+.s-3-blocks{
+	width:50%;
+}
+
+.s-3 .block1{
+	border-radius: 15px;
+	box-shadow: 2px 2px 25px rgba(0, 0, 0,0.1);
+	border: 7px solid;
+	background-color: #198754;
+	color: #fff;
+	padding: 10px;
+	width: 70%;
+	transform: translate(40%,30%);
+}
+
+
+.s-3 .block2{
+	border-left: 6px solid #ed624f;
+	border-radius: 7px;
+	background-color: #fdefed;
+}
+
+@media (max-width:768px){
+	.s-3{
+		flex-direction: column;
+	}
+
+	.s-3-blocks{
+		width: 100%;
+	}
+}
+
+
